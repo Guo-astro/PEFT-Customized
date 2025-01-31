@@ -58,9 +58,7 @@ from src.peft import (
 from src.peft.tuners.lora import LoraLayer
 from src.peft.tuners.tuners_utils import BaseTunerLayer
 from src.peft.utils import _get_submodules, infer_device
-
-from .testing_utils import get_state_dict
-
+from tests.testing_utils import get_state_dict
 
 CONFIG_TESTING_KWARGS = (
     # IA³
