@@ -63,7 +63,7 @@ from torch import nn
 from transformers import AutoModelForCausalLM, BitsAndBytesConfig
 from transformers.pytorch_utils import Conv1D
 
-import peft
+from src import peft
 from src.peft import (
     AdaLoraConfig,
     BOFTConfig,
